@@ -23,6 +23,7 @@ func getPage(url string) *html.Node {
 
 	return doc
 }
+
 func getPageFromFile(path string) *html.Node {
 	f, err := os.Open(path)
 	if err != nil {
