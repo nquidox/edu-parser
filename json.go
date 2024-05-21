@@ -8,6 +8,7 @@ import (
 )
 
 type Record struct {
+	Name      string
 	Url       string
 	Tag       string
 	Substring string
